@@ -5,19 +5,19 @@
 | Item | Details |
 |---|---|
 | Tester identifier | member-e |
-| Date and time | |
-| Browser and version | |
-| Operating system | |
+| Date and time | 5/11/2026 |
+| Browser and version | Chrome 157.0.8103.39 |
+| Operating system | Windows 11 |
 
 ## Login Tests
 ### Test ID: YOUR-TEST-ID
 
 | Item | Details |
 |---|---|
-| Test type | Positive / Negative / Recovery |
-| Tester | Your member identifier |
-| Website | Website name |
-| Status | Not run |
+| Test type | Positive |
+| Tester | member-e |
+| Website | Swag Labs (saucedemo.com) |
+| Status | Run |
 
 #### Purpose
 
@@ -32,7 +32,6 @@ This test checks that users can log in by entering the valid credentials.
 
 | Field | Value |
 |---|---|
-| Input name | Input value |
 | Username | standard_user |
 | Password | secret_sauce |
 
@@ -51,13 +50,12 @@ The inventory page appears and products are visible.
 #### Actual Result
 
 The inventory page appears and products are visible.
-Test passed
+Test run and passed
 
 #### Evidence
 ![successful login with inventory page](../evidence/member-e/image.png)
 
 ---
-
 
 ## Equivalence Partitioning
 
