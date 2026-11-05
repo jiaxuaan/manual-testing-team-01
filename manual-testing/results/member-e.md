@@ -114,7 +114,7 @@ This test checks whether the user can enter abc as an age value, and whether it 
 - Requirement defines the expected behaviour as the age value only accepts numerical values between 18 and 80.
 
 #### Evidence
-Rejection of wrong password:
+"abc" can't be entered and if "submit" is clicked anyway an error message appears:
 
 !["abc" is not considered an age](../evidence/member-e/abc_is_not_age.png)
 
