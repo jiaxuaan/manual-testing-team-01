@@ -144,3 +144,49 @@ Not captured.
 
 
 ## 3-Point Boundary Tests
+
+### Test ID: AGE-2P-17-A
+
+| Item | Details |
+|---|---|
+| Test type | Negative |
+| Tester | member-c |
+| Website | Test Pages validation form |
+| Technique | 3-point boundary testing |
+| Status | run |
+
+#### Purpose
+
+Check that an age  above maximum is rejected through the boundary.
+
+#### Preconditions
+
+The validation form is open.
+All other fields will use the agreed valid baseline.
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| Age | `82` |
+| Other fields | Agreed valid baseline |
+
+#### Steps
+
+1. Restore the validation form.
+2. Enter the agreed baseline.
+3. Replace age with `82`.
+4. Submit.
+5. Observe the response.
+
+#### Expected Result
+
+Age  82 rejected because it is above to the max 80 age.
+
+#### Actual Result
+
+Rejected
+
+#### Evidence
+
+![alt text](../evidence/member-c/3b.png)
