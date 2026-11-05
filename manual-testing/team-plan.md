@@ -17,7 +17,7 @@ Record the agreed baseline data.
 Highlight unclear or changed requirements.
 
 ### Member C
-- GitHub username:
+- GitHub username: hongyi929
 - Coordination responsibility: Check that all required guided test values are covered.
 Identify missing or unexecuted cases.
 
