@@ -11,7 +11,7 @@ Help the team follow the activity sequence.
 Confirm that every member has an assigned task.
 
 ### Member B
-- GitHub username:
+- GitHub username: imabanana80
 - Coordination responsibility: Check the published requirements.
 Record the agreed baseline data.
 Highlight unclear or changed requirements.
