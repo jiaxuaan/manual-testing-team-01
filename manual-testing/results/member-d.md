@@ -60,6 +60,14 @@ Captured.
 
 ## Equivalence Partitioning
 
+#### Actual Result
+Whether the input can be entered: Yes. The age box is a number field with up and down arrows, and it let me leave it empty and select Submit.
+Whether it is prevented, cleared, or rejected: Rejected by the browser. Submit was blocked and the page didn’t go through. This was the browser’s built-in check, not the server, so don’t describe it as a server response.
+What feedback appears: A small browser pop-up under the age field saying “Please fill out this field.” The cursor also lands in the age box.
+Whether the requirement clearly defines the expected behaviour: Not really. The requirement table only says age is between 18 and 80, and it doesn’t say what a blank age should do. So I’d write it as an observation (or a requirement question) instead of marking Pass/Fail, and say you assumed a blank age shouldn’t be accepted.
+### Test ID: AGE-EP-Blank-D
+
+
 ## 2-Point Boundary Tests
 
 ## 3-Point Boundary Tests
