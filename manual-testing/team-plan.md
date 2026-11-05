@@ -22,7 +22,7 @@ Highlight unclear or changed requirements.
 Identify missing or unexecuted cases.
 
 ### Member D
-- GitHub username:
+- GitHub username: nicole-sim
 - Coordination responsibility: Help the team use consistent evidence filenames.
 Check that screenshots contain no sensitive information.
 Check that evidence links work.
