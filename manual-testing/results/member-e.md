@@ -65,6 +65,53 @@ Successfully reached inventory page after correction:
 ---
 
 ## Equivalence Partitioning
+### Test ID: AGE-EP-abc-E
+
+| Item | Details |
+|---|---|
+| Test type | Recovery |
+| Tester | member-e |
+| Website | Client Server Form Validation Testing App (testpages.eviltester.com/apps/client-server-form-validation/) |
+| Status | Run |
+
+#### Purpose
+
+This test checks whether the user can enter abc as an age value, and whether it is accepted or rejected.
+
+#### Preconditions
+
+- All other baseline values are unchanged
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| First name | Alex |
+| Age | abc |
+| Country | Singapore |
+| Notes | Manual testing classroom exercise
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age.
+4. Write the expected result.
+5. Submit.
+6. Observe acceptance or rejection.
+7. Where displayed, verify the submitted age.
+8. Record the actual result and status in a separate test-case block.
+
+#### Actual Result
+
+- The input cannot be entered in the field at all.
+- An error message appears prompting to fill out the age field (it is considered empty)
+- Requirement defines the expected behaviour as the age value only accepts numerical values between 18 and 80.
+
+#### Evidence
+Rejection of wrong password:
+![login failed with wrong password](../evidence/member-e/login_rejection.png)
+
 
 ## 2-Point Boundary Tests
 
