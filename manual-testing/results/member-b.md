@@ -58,7 +58,7 @@ Login is rejected and error popup appears. User is not logged in.
 
 #### Evidence
 
-[View screenshot](../evidence/member-b/login-n01.png)
+[View screenshot](/manual-testing/evidence/member-b/login_n01.png)
 
 ---
 
