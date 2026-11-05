@@ -36,6 +36,12 @@ Maintain the team summary.
 
 ## Agreed Baseline Data
 
+First Name: `Alexander`
+Surname: `TestingStudent`
+Age: `30`
+Country: `Singapore`
+Notes: `Manual testing classroom exercise`
+
 ## Open-Ended Testing Allocation
 
 ## Repository Integration Arrangements
