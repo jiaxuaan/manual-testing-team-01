@@ -1,4 +1,4 @@
-### Test ID: YOUR-TEST-ID
+### Test ID: LOGIN-P01
 
 | Item | Details |
 |---|---|
@@ -10,6 +10,8 @@
 #### Purpose
 
 What does this test check?
+
+valid credentials
 
 #### Preconditions
 
