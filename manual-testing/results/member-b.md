@@ -169,3 +169,54 @@ The age is accepted and query is successfull.
 ---
 
 ## 3-Point Boundary Tests
+
+### Test ID: AGE-3P-19-B
+
+| Item | Details |
+|---|---|
+| Test type | Positive |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/submit |
+| Technique | 3-point boundary testing |
+| Status | Pass |
+
+#### Purpose
+
+Checks that age 19 is accepted.
+
+#### Preconditions
+
+Any previous queries are cleared
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| First Name | `Alex` |
+| Last Name | `TestingStudent` |
+| Age | `19` |
+| Country | `Singapore` |
+| Notes | `Manual testing classroom exercise` |
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age to `19`.
+4. Submit.
+5. Observe acceptance or rejection.
+6. Where displayed, verify the submitted age.
+
+#### Expected Result
+
+The age is accepted and query is successfull.
+
+#### Actual Result
+
+The age is accepted and query is successfull.
+
+#### Evidence
+
+[View screenshot](/manual-testing/evidence/member-b/age-3p-19-b.png)
+
+---
