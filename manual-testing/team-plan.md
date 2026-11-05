@@ -5,7 +5,7 @@
 ## Members
 
 ### Member A
-- GitHub username:
+- GitHub username: jiaxuaan
 - Coordination responsibility: Keep track of time.
 Help the team follow the activity sequence.
 Confirm that every member has an assigned task.
