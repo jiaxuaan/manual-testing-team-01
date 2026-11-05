@@ -64,6 +64,159 @@ Login is rejected and error popup appears. User is not logged in.
 
 ## Equivalence Partitioning
 
+### Test ID: AGE-EP-10-B
+
+| Item | Details |
+|---|---|
+| Test type | Negative |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/submit |
+| Status | Pass |
+
+#### Purpose
+
+Checks that an age below 18 is rejected.
+
+
+#### Preconditions
+
+Any previous queries are cleared
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| First Name | `Alex` |
+| Last Name | `TestingStudent` |
+| Age | `10` |
+| Country | `Singapore` |
+| Notes | `Manual testing classroom exercise` |
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age.
+4. Submit.
+5. Observe acceptance or rejection.
+6. Where displayed, verify the submitted age.
+
+#### Expected Result
+
+The age is rejected and query is not submitted. An error appears.
+
+#### Actual Result
+
+The age is rejected and query is not submitted. An error appears.
+
+#### Evidence
+
+[View screenshot](/manual-testing/evidence/member-b/age-ep-10-b.png)
+
+---
+
 ## 2-Point Boundary Tests
 
+### Test ID: AGE-2P-18-B
+
+| Item | Details |
+|---|---|
+| Test type | Positive |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/submit |
+| Technique | 2-point boundary testing |
+| Status | Pass |
+
+#### Purpose
+
+Checks that age 18 exactly is accepted.
+
+#### Preconditions
+
+Any previous queries are cleared
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| First Name | `Alex` |
+| Last Name | `TestingStudent` |
+| Age | `18` |
+| Country | `Singapore` |
+| Notes | `Manual testing classroom exercise` |
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age to `18`.
+4. Submit.
+5. Observe acceptance or rejection.
+6. Where displayed, verify the submitted age.
+
+#### Expected Result
+
+The age is accepted and query is successfull.
+
+#### Actual Result
+
+The age is accepted and query is successfull.
+
+#### Evidence
+
+[View screenshot](/manual-testing/evidence/member-b/age-2p-18-b.png)
+
+---
+
 ## 3-Point Boundary Tests
+
+### Test ID: AGE-3P-19-B
+
+| Item | Details |
+|---|---|
+| Test type | Positive |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/submit |
+| Technique | 3-point boundary testing |
+| Status | Pass |
+
+#### Purpose
+
+Checks that age 19 is accepted.
+
+#### Preconditions
+
+Any previous queries are cleared
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| First Name | `Alex` |
+| Last Name | `TestingStudent` |
+| Age | `19` |
+| Country | `Singapore` |
+| Notes | `Manual testing classroom exercise` |
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age to `19`.
+4. Submit.
+5. Observe acceptance or rejection.
+6. Where displayed, verify the submitted age.
+
+#### Expected Result
+
+The age is accepted and query is successfull.
+
+#### Actual Result
+
+The age is accepted and query is successfull.
+
+#### Evidence
+
+[View screenshot](/manual-testing/evidence/member-b/age-3p-19-b.png)
+
+---
