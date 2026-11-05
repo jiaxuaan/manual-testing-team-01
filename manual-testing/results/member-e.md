@@ -57,7 +57,6 @@ Test run and passed
 
 ---
 
-
 ## Equivalence Partitioning
 
 ## 2-Point Boundary Tests
